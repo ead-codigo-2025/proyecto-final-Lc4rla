@@ -1,0 +1,98 @@
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.montserrat{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.titulo {
+    font-family: Montserrat;
+    color: #5F2083;
+    font-size: 22pt;
+}
+.titulo-primero {
+    font-family: Montserrat;
+    color: #5F2083;
+    font-size: 18pt;
+}
+.titulo-segundo {
+    font-family: Montserrat;
+    color: #44175E;
+    font-size: 15pt;
+}
+.titulo-tercero {
+    font-family: Montserrat;
+    color: #44175E;
+    font-size: 13pt;
+}
+.texto-inicio{
+    font-family: Lato;
+    color: #9432CD;
+    font-size: 15pt;
+}
+.texto{
+    font-family: Lato;
+    font-size: 12pt;
+}
+
+body {
+    background-color: #E1C6F1;
+}

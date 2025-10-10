@@ -92,6 +92,11 @@
     font-family: Lato;
     font-size: 12pt;
 }
+.texto-segundo{
+    font-family: Lato;
+    font-size: 12pt;
+    font-style: italic;
+}
 
 body {
     background-color: #E1C6F1;

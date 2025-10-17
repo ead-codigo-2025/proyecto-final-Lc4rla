@@ -63,7 +63,7 @@
   font-weight: weight;
   font-style: normal;
 }
-.titulo {
+h1 {
     font-family: Montserrat;
     color: #5F2083;
     font-size: 22pt;
@@ -73,12 +73,12 @@
     color: #5F2083;
     font-size: 18pt;
 }
-.titulo-segundo {
+h2 {
     font-family: Montserrat;
     color: #44175E;
     font-size: 15pt;
 }
-.titulo-tercero {
+h3 {
     font-family: Montserrat;
     color: #44175E;
     font-size: 13pt;

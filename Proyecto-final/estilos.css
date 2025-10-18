@@ -97,7 +97,10 @@ h3 {
     font-size: 12pt;
     font-style: italic;
 }
-
+.texto-tercero{
+    font-family: Lato;
+    font-size: 9pt;
+}
 body {
     background-color: #E1C6F1;
 }

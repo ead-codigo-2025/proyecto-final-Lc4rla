@@ -97,21 +97,21 @@ h3 {
 .texto{
     font-family: Lato;
     font-size: 12pt;
+    padding-right: 15%;
 }
 .texto-segundo{
     font-family: Lato;
     font-size: 12pt;
     font-style: italic;
+    padding-right: 15%;
 }
 .texto-tercero{
     font-family: Lato;
     font-size: 9pt;
+    padding-right: 15%;
 }
 body {
-    background-color: #E1C6F1;
-}
-.contenedor-texto {
-  padding-right: 15%;
+    background-color: #e3d6eb;
 }
 .splide__slide img {
   width: 600px;

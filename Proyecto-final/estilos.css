@@ -104,3 +104,12 @@ h3 {
 body {
     background-color: #E1C6F1;
 }
+.splide__slide img {
+  width: 600px;
+}
+.splide__track {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 20pt;
+  padding-right: 20pt;
+}

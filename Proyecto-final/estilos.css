@@ -73,6 +73,12 @@ h1 {
     color: #5F2083;
     font-size: 18pt;
 }
+.titulo-nombre {
+    font-family: Montserrat;
+    color: #5F2083;
+    font-size: 18pt;
+    padding-top: 3%;
+}
 h2 {
     font-family: Montserrat;
     color: #44175E;
@@ -103,6 +109,9 @@ h3 {
 }
 body {
     background-color: #E1C6F1;
+}
+.contenedor-texto {
+  padding-right: 15%;
 }
 .splide__slide img {
   width: 600px;

@@ -3,7 +3,6 @@
     <head>
     <link rel="stylesheet" href="estilos.css">  
     <script src="galerias.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
@@ -56,32 +55,42 @@
 <p class="texto">Los alumnos se hacen parte de todo el proceso de grabado, preparando sus planchas de aluminio, el papel humedeciéndolo, la tinta y la prensa para luego entintar e imprimir. Esto busca la composición de un cuerpo gráfico pensado en el lector con un relato que nos cuenta sobre su experiencia de acercamiento con el museo y los grabados a través de relaciones encontradas con el texto “El arco y la lira” de Octavio Paz.</p>
 <p class="texto">Recreando la nitidez lumínica de los elementos del espacio del museo a través del dibujo.</p>
 <p class="texto">Publicado el 04 de Julio de 2023, en papel crunch color blanco de 200 grms con tipografía palatino. Autor: Carla Lorca</p>
- <section class="splide" aria-label="Basic Structure Example">
-    <div class="splide__track">
-        <li class="splide__slide">
-          <img src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-1-Carla_L.jpg">
-        </li>
-        <li class="splide__slide">
-          <img src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-2-Carla_L.jpg">
-        </li>
-        <li class="splide__slide">
-          <img src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-3-Carla_L.jpg">
-        </li>
-        <li class="splide__slide">
-          <img src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-4-Carla_L.jpg">
-        </li>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+      <img src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-1-Carla_L.jpg" style="width:50%; display: block; margin: 0 auto;">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+      <img src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-2-Carla_L.jpg" style="width:50%; display: block; margin: 0 auto;">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+      <img src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-3-Carla_L.jpg" style="width:50%; display: block; margin: 0 auto;">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+      <img src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-4-Carla_L.jpg" style="width:50%; display: block; margin: 0 auto;">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-1-Carla_L.jpg" style="width:100%" onclick="currentSlide(1)" alt="“La escultura era un doble del modelo; la fórmula ritual una producción de la realidad, capaz de re-engendrarla. Hablar era recrear el objeto aludido.” “La participación implica la recreación, el lector reproduce los gestos y experiencias del poeta.”">
     </div>
-    </section>
-<p class="texto-segundo">“La escultura era un doble del modelo; la fórmula ritual una producción de la realidad, capaz de re-engendrarla. Hablar era recrear el objeto aludido.”</p>
-<p class="texto-segundo">“La participación implica la recreación, el lector reproduce los gestos y experiencias del poeta.”</p>
-<p class="texto-segundo">"El poema es una totalidad viviente hecha de elementos irremplazables. La verdadera traducción no puede ser así, sino re-creación"</p>
-<p class="texto-segundo">"Toda corrección implica una re-creación, un volver sobre vuestros pasos, hacia dentro de nosotros"</p>
-<p class="texto-segundo">"Lenguaje y mito son vastas metáforas de la realidad."</p>
-<p class="texto-segundo">"La esencia del lenguaje es simbólica porque consiste en representar un elemento de la realidad por otro, según ocurre con las metáforas”</p>
-<p class="texto-segundo">"El poema es creación original y única, pero también es lectura y recitación participación.El poeta lo crea, el pueblo, al recitarlo, lo recrea.”</p>
-<p class="texto-segundo">"El poeta en cambio, opera de abajo para arriba: del lenguaje de su comunidad al poema.”</p>
-<p class="texto-segundo">"En seguida, la obra regresa a sus fuentes y se vuelve objeto de comunión."</p>
-<p class="texto-segundo">"El hombre es hombre gracias al lenguaje, gracias a la metáfora original que lo hizo ser otro y lo separó del mundo natural. El hombre es un ser que se ha creado a sí mismo al crear un lenguaje.”</p>
-<p class="texto-segundo">"Diariamente las palabras chocan entresi y arrojan chispas metálicas o forman parejas fosforescentes"</p>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-2-Carla_L.jpg" style="width:100%" onclick="currentSlide(2)" alt="“Lenguaje y mito son vastas metáforas de la realidad.” “La esencia del lenguaje es simbólica porque consiste en representar un elemento de la realidad por otro, según ocurre con las metáforas”">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-3-Carla_L.jpg" style="width:100%" onclick="currentSlide(3)" alt="“El poema es creación original y única, pero también es lectura y recitación participación. El poeta lo crea, el pueblo, al recitarlo, lo recrea.” “El poeta en cambio, opera de abajo para arriba: del lenguaje de su comunidad al poema.”">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/hacer-visible/1200px-Proyecto_F-4-Carla_L.jpg" style="width:100%" onclick="currentSlide(4)" alt="“El hombre es hombre gracias al lenguaje, gracias a la metáfora original que lo hizo ser otro y lo separó del mundo natural. El hombre es un ser que se ha creado a sí mismo al crear un lenguaje.”">
+    </div>
+  </div>
+</div>
     </body>    
 </html>  

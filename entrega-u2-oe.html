@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-    <link rel="stylesheet" href="estilos.css"> 
+    <link rel="stylesheet" href="estilos.css">
+    <script src="galerias.js"></script> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -141,21 +142,6 @@
 <li><p class="texto">Interlineado: 10 pt</p></li>
 <li><p class="texto">Espaciado entre letras: 0</p></li>
 <p class="texto">Para los textos y subtítulos se utilizó Open Sans Condensed, sus características visuales son similares a la tipografía Oswald, haciéndola óptima para su uso en conjunto, siendo una buena combinación. Al igual que Oswald es muy legible para verse en diferentes formatos, su apariencia es amigable y versátil para diferentes tipos de documentos.</p>
-<h3>Contenido Visual: Hoja en Acuarela</h3>
-<p class="texto"><strong>Hierbas</strong></p>
-
-<p class="texto"><strong>Arbustos</strong></p>
-
-<p class="texto"><strong>Árboles</strong></p>
-
-<p class="texto">Las hojas se hicieron en papel fabriano de 300 gramos, con acuarelas utilizando la técnica de ir formando el color de la planta por capas que se ha utilizado con anterioridad en el Taller de Luz y Color del año 2022.</p>
-<p class="texto">Se crea un efecto donde el dibujo abarca muchos matices, algunas partes de la hoja se verán más amarillas, otras más azuladas; esto genera una sensación de fluidez dentro de cada pieza similar al organismo de una hoja, evitando esa simpleza que se crea con los colores planos.</p>
-<h3>Contenido Visual: Plantas en digital e Iconos</h3>
-
-<p class="texto">Se hicieron con el programa Photoshop de Adobe; para mostrar la estructura completa de las plantas presentadas, lo que más se quiso destacar son las luces y sombras que se generaban en las hojas, el follaje. El trazo está hecho de manera suelta similar al de un bosquejo para que se asimilara al trazo del grafito en las acuarelas y marcar una identidad dentro de la composición visual.</p>
-<h3>Iconos</h3>
-
-<p class="texto">Fueron hechos en la herramienta Illustrator de Adobe, para mostrar cada ecosistema terrestre dentro del Parque Nacional La Campana donde perteneciera cada planta, sin necesidad de utilizar letras, se utilizó la paleta implementada para toda la maqueta en general.</p>
 <h3>Diagramación cuerpo gráfico edición Final</h3>
 <img src="Imágenes-proyecto/ocasion-editorial/1200px-Medidas_maqueta_final-Lorca.png" height="400"/>
 <p class="texto">División en dos columnas para una diagramación más consistente. Se aclaró el fondo para que hay un mejor contraste entre los colores. Iconos de los tipos de comunas que se hayan en el Parque Nacional La Campana. Cuando el texto es el elemento principal en la página se divide en dos columnas.</p>
@@ -196,6 +182,57 @@
 <img src="Imágenes-proyecto/ocasion-editorial/1199px-Cuerpo_grafico3-UNIDAD2_Lorca-v2.png" height="500"/>
 <p class="texto">En el despliegue de las láminas de la maqueta se puede indagar desde la estructura completa de las plantas hasta las hojas de las mismas, escalado en un tamaño que podría tener una hoja de verdad de la especie de planta.</p>
 <h3>Fotografías edición Final</h3>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="Imágenes-proyecto/ocasion-editorial/1200px-Maqueta_final-Flora_La_Campana-29-06-1_Lorca_Carla.jpg" style="width:40%; display: block; margin: 0 auto;">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+      <img src="Imágenes-proyecto/ocasion-editorial/1041px-Maqueta_final-Flora_La_Campana-29-06-2_Lorca_Carla.jpg" style="width:40%; display: block; margin: 0 auto;">
+  </div>
+   <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="Imágenes-proyecto/ocasion-editorial/719px-Maqueta_final-Flora_La_Campana-29-06-3_Lorca_Carla.jpg" style="width:40%; display: block; margin: 0 auto;">
+  </div>
+   <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="Imágenes-proyecto/ocasion-editorial/1200px-Maqueta_final-Flora_La_Campana-29-06-4_Lorca_Carla.jpg" style="width:40%; display: block; margin: 0 auto;">
+  </div>
+   <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+      <img src="Imágenes-proyecto/ocasion-editorial/819px-Maqueta_final-Flora_La_Campana-29-06-6_Lorca_Carla.jpg" style="width:40%; display: block; margin: 0 auto;">
+  </div>
+   <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="Imágenes-proyecto/ocasion-editorial/1200px-Maqueta_final-Flora_La_Campana-29-06-9_Lorca_Carla.jpg" style="width:40%; display: block; margin: 0 auto;">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/ocasion-editorial/1200px-Maqueta_final-Flora_La_Campana-29-06-1_Lorca_Carla.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/ocasion-editorial/1041px-Maqueta_final-Flora_La_Campana-29-06-2_Lorca_Carla.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/ocasion-editorial/719px-Maqueta_final-Flora_La_Campana-29-06-3_Lorca_Carla.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/ocasion-editorial/1200px-Maqueta_final-Flora_La_Campana-29-06-4_Lorca_Carla.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+        <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/ocasion-editorial/819px-Maqueta_final-Flora_La_Campana-29-06-6_Lorca_Carla.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+        <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/ocasion-editorial/1200px-Maqueta_final-Flora_La_Campana-29-06-9_Lorca_Carla.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+  </div>
+</div>
 <h3>Video</h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HcroU-GZvyk?si=4mV04TqLA2Vrbwx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <h3>Referencias bibliográficas</h3>

@@ -198,6 +198,9 @@ body {
   display: grid; 
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
   gap: 10px; 
+  padding-top: 20pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
 }
 .grid-item {
   overflow: hidden;
@@ -206,5 +209,4 @@ body {
   width: 100%; 
   height: auto; 
   display: block; 
-  padding-top: 20pt;
 }

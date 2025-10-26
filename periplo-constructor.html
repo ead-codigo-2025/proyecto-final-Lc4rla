@@ -2,6 +2,7 @@
 <html lang="es">
     <head>
     <link rel="stylesheet" href="estilos.css">
+    <script src="galerias.js"></script>
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
@@ -45,10 +46,10 @@
   </div>
 </div>
     </header>    
-                <ul>
-                    <li><a href="observacion-pc.html"><p class="texto-inicio">Acciones y actos humanos</p></a></li>
-                    <li><a href="caso-de-estudio-pc.html"><p class="texto-inicio">Juego de mesa: Dixit ODYSSEY</p></a></li>
-                </ul>
+    <ul>
+    <li><a href="observacion-pc.html"><p class="texto-inicio">Acciones y actos humanos</p></a></li>
+    <li><a href="caso-de-estudio-pc.html"><p class="texto-inicio">Juego de mesa: Dixit ODYSSEY</p></a></li>
+    </ul>
 <h1>Periplo Constructor</h1>
 <h2>Taller: Taller de Diseño de Interacción</h2>
 <h2>Profesor: Herbert Spencer</h2>
@@ -359,15 +360,50 @@ Faltan categorías e iconos de los personajes en el manual del juego, además de
 <h3>Caja del Juego</h3> 
 <img src="Imágenes-proyecto/de-interaccion/periplo-constructor/655px-Diseño_caja_de_juego-PERIPLO_CONSTRUCTOR-25-06.jpg" height="600"/>
 <h3>Exposición</h3> 
-<img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-1_Periplo_constructor-01-07.jpg" height="600"/>
-<img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-2_Periplo_constructor-01-07.jpg" height="600"/>
-<img src="Imágenes-proyecto/de-interaccion/periplo-constructor/675px-Exposición_montaje-3_Periplo_constructor-01-07.jpg" height="600"/>
-<img src="Imágenes-proyecto/de-interaccion/periplo-constructor/675px-Exposición_montaje-4_Periplo_constructor-01-07.jpg" height="600"/>
-<img src="Imágenes-proyecto/de-interaccion/periplo-constructor/675px-Exposición_montaje-5_Periplo_constructor-01-07.jpg" height="600"/>
-<img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-6_Periplo_constructor-01-07.jpg" height="600"/>
-<img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-7_Periplo_constructor-01-07.jpg" height="600"/>
-<img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-8_Periplo_constructor-01-07.jpg" height="600"/>
-<img src="Imágenes-proyecto/de-interaccion/periplo-constructor/675px-Exposición_montaje-9_Periplo_constructor-01-07.jpg" height="600"/>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+      <img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-1_Periplo_constructor-01-07.jpg" style="width:50%; display: block; margin: 0 auto;">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+      <img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-2_Periplo_constructor-01-07.jpg" style="width:50%; display: block; margin: 0 auto;">
+  </div>
+   <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+      <img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-6_Periplo_constructor-01-07.jpg" style="width:50%; display: block; margin: 0 auto;">
+  </div>
+   <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+      <img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-7_Periplo_constructor-01-07.jpg" style="width:50%; display: block; margin: 0 auto;">
+  </div>
+   <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+      <img src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-8_Periplo_constructor-01-07.jpg" style="width:50%; display: block; margin: 0 auto;">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-1_Periplo_constructor-01-07.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-2_Periplo_constructor-01-07.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-6_Periplo_constructor-01-07.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-7_Periplo_constructor-01-07.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Imágenes-proyecto/de-interaccion/periplo-constructor/1200px-Exposición_montaje-8_Periplo_constructor-01-07.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+  </div>
+</div>
 <h2>Conclusión (FINAL)</h2>
 <p class="texto">Podemos concluir que el proyecto de desarrollar un juego de mesa es complejo, debido al constante pulimiento que hay que hacer en varios aspectos, como los elementos, personajes, temáticas; y dar un especial énfasis hacia las reglas, como estas se constituyen es primordial para el desenvolvimiento de un juego, y que este sea dinámico, fluido y por sobre todo, divertido. Pensamos que el resultado final de nuestro juego ha sido bueno, nos esforzamos para que las reglas al ojo del jugador fueran simples y comprensibles a la primera lectura. Las pruebas de usuario nos demostraron que realmente el juego es disfrutable para aquellos que lo prueban y eso fue sumamente gratificante a pesar de los problemas que hubo en el desarrollo; claro que se pueden hacer mejoras en varios aspectos visuales y hasta mecánicos relacionados a la jugabilidad, pero aún así sentimos que pudimos dar un buen producto con el que los usuarios pueden pasar un momento de ocio y disfrute.</p>
     </body>    

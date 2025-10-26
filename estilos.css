@@ -1,4 +1,5 @@
 * {
+  margin: 0;
   text-decoration: none;
 }
 h1 {
@@ -7,6 +8,8 @@ h1 {
     font-size: 22pt;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 18pt;
 }
 .titulo-primero {
     font-family: Montserrat;
@@ -14,6 +17,7 @@ h1 {
     font-size: 18pt;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 2%;
 }
 .titulo-nombre {
     font-family: Montserrat;
@@ -22,6 +26,7 @@ h1 {
     padding-top: 3%;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 2%;
 }
 h2 {
     font-family: Montserrat;
@@ -29,6 +34,7 @@ h2 {
     font-size: 15pt;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 2%;
 }
 h3 {
     font-family: Montserrat;
@@ -36,6 +42,7 @@ h3 {
     font-size: 13pt;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 2%;
 }
 .texto-inicio{
     font-family: Lato;
@@ -43,12 +50,15 @@ h3 {
     font-size: 15pt;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 14pt;
 }
 .texto{
     font-family: Lato;
     font-size: 12pt;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 14pt;
+    padding-bottom: 14pt;
 }
 .texto-segundo{
     font-family: Lato;
@@ -56,12 +66,16 @@ h3 {
     font-style: italic;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 14pt;
+    padding-bottom: 14pt;
 }
 .texto-tercero{
     font-family: Lato;
     font-size: 9pt;
     padding-left: 3%;
     padding-right: 3%;
+    padding-top: 14pt;
+    padding-bottom: 14pt;
 }
 body {
     background-color: #e3d6eb;
@@ -179,4 +193,18 @@ body {
 .active,
 .demo:hover {
   opacity: 1;
+}
+.grid-container {
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 10px; 
+}
+.grid-item {
+  overflow: hidden;
+}
+.grid-item img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  padding-top: 20pt;
 }
